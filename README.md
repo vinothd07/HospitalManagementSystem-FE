@@ -1,6 +1,32 @@
+
 # HospitalManagementSystem
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+
+# Login Credentials
+# Doctor Logins
+    username: vinoth
+    password: vinoth
+
+    username: raj
+    password: raj
+
+    username: ashok
+    password: ashok
+
+# Patient Login
+    username: vijay
+    password: vijay
+
+Note*: `Must have to run node server`
+Access: `http://localhost:4200/`
+Run: `ng serve`
+
+Reference: 
+    attachment: `Screenshots` 
+    path: `/root/screenshots/`
+
+
 
 ## Development server
 
@@ -25,3 +51,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+"# Hospital-Management-System" 

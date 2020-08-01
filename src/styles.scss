@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.app-accepted{
+    border-radius: 4px;
+    padding:4px;
+    background: rgb(171, 245, 171);
+    color:green;
+}
+.app-rejected, .app-cancelled{
+    border-radius: 4px;
+    padding:4px;
+    background: rgb(238, 184, 184);
+    color:red;
+}
+.app-pending{
+    border-radius: 4px;
+    padding:4px;
+    background: rgb(239, 247, 169);
+    color:rgb(100, 100, 7);
+}
+.action-icon{
+    cursor: pointer;
+}
+
+.appointment-dialog-container .mat-dialog-container {
+    width: 70%;
+    min-height: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.timepicker__header{
+    background-color: black !important
+  }
+  .timepicker-button {
+    color: black !important;
+  }
+  .clock-face__number > span.active{
+    background-color:black !important
+  }
+  [_nghost-c18]{
+    --clock-hand-color: black !important;
+  }
+  .cdk-overlay-container{
+    z-index: 1 !important
+  }

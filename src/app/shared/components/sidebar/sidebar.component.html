@@ -1,0 +1,20 @@
+<mat-nav-list>
+    <br><br>
+    <div class="profile-card">
+        <img src="https://media.creativemornings.com/uploads/user/avatar/116475/round_headshot.png" alt="User Image">
+        <div class="header">
+            <h2 style="margin: 15px 0 0 0;">{{users.role_id == 1 ? 'Dr.':'Mr.'}}{{users.name}} </h2><span
+                style="font-size: 10px;"></span>
+            <h4 style="font-size: 13px;font-weight: 500;">{{users.email}}</h4>
+        </div>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <a mat-list-item routerLinkActive="active-link" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" *ngIf="users.role_id == 1">
+        <mat-icon>home</mat-icon> Home
+    </a>
+    <a mat-list-item routerLinkActive="active-link" routerLink="/appointments" [routerLinkActiveOptions]="{ exact: true }">
+        <mat-icon>assignment_turned_in</mat-icon> Appointments
+    </a>
+</mat-nav-list>
